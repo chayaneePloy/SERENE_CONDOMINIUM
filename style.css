@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     scroll-behavior: smooth;
     font-family: Helvetica;
@@ -10,7 +10,15 @@
     position: sticky;
     top: 0;
     z-index: 10; 
+    padding: 50px 16px; 
+
     
+}
+.navbar-brand b{
+    height: 110px;
+    color: #3e3e3e;
+    font-size: 48px;
+
 }
 .navbar-nav li{
     padding: 0 10px;
@@ -33,3 +41,47 @@
     font-size: 16px;
 }
 /*<!--จบการทำเมนู-->*/
+.box{
+    position: fixed;
+    width: 900px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 50px 50px 75px 100px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+.box h1{
+   
+    font-size: 82px;
+    color:#2f2f2f;
+}
+.box p{
+    font-size: 36px;
+    color:#ababab;
+}
+.img-right{
+    text-align: right;
+    padding: 50px 50px 75px 100px;
+
+}
+
+
+
+
+ 
+/* css ซ้อนทับ ชิดขอบด้านขวา */
+.inner_position_right{
+	
+	display:block;	
+	background-color:#FFFF99;	
+	height:100%;/* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+	width:50px; /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ */
+	top:0px; /* css กำหนดชิดด้านบน  */
+	right:0px; /* css กำหนดชิดขวา  */
+	z-index:999;
+}
+.box-img{
+    position:absolute;
+}
