@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+} /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
+
+/* ----- NavigationBar เมนู-----   */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+/*nav-nav เรียกใช้จากboostarp กำหนดความกว้างระหว่างเมนู */
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+.navbar{
+    background-color: white;
+}
+/*ตั้งค่าสี ขอบของเมนู */
+.navbar-toggler{
+    border: none!important;
+}/*ตั้งค่าสีขอบเมนูไม่มีขอบ */
+.nav-link{
+    color: black!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*<!--จบการทำเมนู-->*/
