@@ -3,6 +3,7 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: Helvetica;
+   
 } /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
 
 /* ----- NavigationBar เมนู-----   */
@@ -81,3 +82,46 @@
     margin: 0;
 }
 /***past2***/
+#past-2{
+    background-color: #353e47;
+}
+.bg-mian{
+    background-color: #353e47;
+}
+.icon-right{
+    font-size: 80px;
+    margin: 20px auto;
+    padding: 10px 113px 0px 0px;
+    color: #fff;
+}
+.p-right{
+    padding: 10px 20px 0px 0px;
+    text-align: right;
+    font-size: 32px;
+    color: #fff;
+}
+.p-right h3{
+    padding: 10px 88px 0px 0px;
+    text-align: right;
+    font-size: 23px;
+    color: #fff;
+}
+.width-100{
+    width: 100%;
+}
+.icon-center{
+    font-size: 80px;
+    margin: 20px auto;
+    padding: 10px 113px 0px 0px;
+    color: #fff;
+}
+.icon-right{
+    font-size: 80px;
+    margin: 20px auto;
+    padding: 10px 113px 0px 0px;
+    color: #fff;
+}
+
+.p-center{
+
+}
