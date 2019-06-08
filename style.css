@@ -91,11 +91,11 @@
 .icon-right{
     font-size: 80px;
     margin: 20px auto;
-    padding: 10px 113px 0px 0px;
+    padding: 0px 145px 0px 130px;
     color: #fff;
-}
+} 
 .p-right{
-    padding: 10px 20px 0px 0px;
+    padding: 0px 40px 0px 0px;
     text-align: right;
     font-size: 32px;
     color: #fff;
@@ -106,22 +106,54 @@
     font-size: 23px;
     color: #fff;
 }
+
 .width-100{
     width: 100%;
 }
 .icon-center{
     font-size: 80px;
     margin: 20px auto;
-    padding: 10px 113px 0px 0px;
+    padding: 0px 15px 0px 0px;
     color: #fff;
 }
-.icon-right{
+.p-center{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    
+}
+.p-center h3{
+    padding: 0px 15px 0px 0px;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+}
+.p-lelf{
+    padding: 0px 0px 0px 45px;
+    text-align: left;
+    font-size: 32px;
+    color: #fff;
+}
+.p-lelf h3{
+    padding: 0px 0px 0px 80px;
+    text-align: left;
+    font-size: 23px;
+    color: #fff;
+}
+.icon-left{
     font-size: 80px;
     margin: 20px auto;
-    padding: 10px 113px 0px 0px;
+    padding: 0px 0px 0px 127px;
     color: #fff;
 }
-
-.p-center{
-
+.solid {
+    border-width:3px;  
+    border-left-style:solid;
+    color: #fff; 
+}
+.top-btn{
+    border:1px solid white;
+    margin: 0px 10px;
+    padding: 10px 50px;
 }
