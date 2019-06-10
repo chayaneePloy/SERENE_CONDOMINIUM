@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Helvetica, Geneva, Verdana, sans-serif
+} /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
+
+/* ----- NavigationBar เมนู-----   */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    padding: 20px 0px 0px 120px;
+}
+@media(min-width : 1280px){
+    #title {
+        font-size: 42px;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+}
+
+/*nav-bar เรียกใช้จากboostarp กำหนดให้อยู่บนหัว */
+.navbar-brand img{
+    height: 110px;
+    padding-left: 10px;
+}
+.navbar-brand  b{
+    color: #3e3e3e;
+
+}
+/*navbar-brand เพิ่ม img เข้าไปเพื่อกำหนด img ให้ภาพลดขนาด และความห่างจากข้างซ้าย */
+.navbar-nav li{
+    padding: 0 10px;
+}
+/*nav-nav เรียกใช้จากboostarp กำหนดความกว้างระหว่างเมนู */
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+/*nav-nav เรียกใช้จากboostarp กำหนดเมนูไปอยู่ซ้ย */
+#nav-bar ul li a:hover{
+    color:#ffaf0c!important;
+}
+.navbar{
+    background-color: white;
+}
