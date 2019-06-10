@@ -40,9 +40,33 @@
     text-align: left;
 }
 /*nav-nav เรียกใช้จากboostarp กำหนดเมนูไปอยู่ซ้ย */
-#nav-bar ul li a:hover{
-    color:#ffaf0c!important;
-}
+
 .navbar{
     background-color: white;
+}
+
+/******* header******/
+.box{
+    position: absolute;
+    border-radius: 10px;
+    width: 1200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 50px 50px 75px 150px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    text-align: left;
+    z-index: 5;
+   
+    
+}
+@media(max-width : 740px){
+    .box{
+          background-color: #f5f5f59e;
+   }
+}
+#header{
+    width: 100%;
+    height: 100%;
 }

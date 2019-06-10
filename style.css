@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0;
@@ -45,7 +46,7 @@
 .box{
     position: absolute;
     border-radius: 10px;
-    width: 100%;
+    width: 1100px;
     margin-top: 200px;
     margin-bottom: 200px;
     padding: 50px 50px 75px 150px;
@@ -56,6 +57,14 @@
     z-index: 5;
    
     
+}
+@media(max-width : 740px){
+    .box{
+      
+        background-color: #f5f5f59e;
+      
+        
+    }
 }
 .box h1{
    
@@ -91,7 +100,7 @@
 .icon-right{
     font-size: 80px;
     margin: 20px auto;
-    padding: 0px 145px 0px 125px;
+    padding: 0px 145px 0px 130px;
     color: #fff;
 } 
 .p-right{
