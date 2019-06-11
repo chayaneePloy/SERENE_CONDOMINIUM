@@ -17,34 +17,18 @@
     padding-left: 80px;
     color: #3e3e3e;
 }
-
-
-
-
-
 @media(max-width : 1200px){
-.navbar-brand {
-        padding-left: 0px;
- }
-.navbar-brand b{
+ .navbar-brand b{
+    padding-left: 0px;
      font-size: 1.5rem;  
  }
 }
 @media(max-width : 740px){
-.navbar-brand {
-        padding-left: 0px!;
- }
 .navbar-brand  b{
+    padding-left: 0px;
      font-size: 1rem;   
  }
 }
-
-
-
-
-
-
-
 .navbar-nav li{
     padding: 0 10px;
 }
@@ -57,8 +41,6 @@
     background-color: white;
 }
 /*ตั้งค่าสี ขอบของเมนู */
-
-
 .navbar-toggler{
     border: none!important;
 }/*ตั้งค่าสีขอบเมนูไม่มีขอบ */
@@ -98,18 +80,13 @@
         padding: 0px 0px 0px 30px;
         margin-top: 30px;
         background-color: #f5f5f59e;
-      
    }
-   .box h1{
-   
-    font-size: 20px;
-       
-   
+   .box h1{   
+    font-size: 20px; 
 }
 .box p{
     font-size: 14px;
-    color:#4b4949;
-    
+    color:#4b4949;  
 }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -119,19 +96,14 @@
         margin-bottom: 10px;
         padding: 20px 0px 0px 30px;
         margin-top: 30px;
-        background-color: #f5f5f59e;
-      
+        background-color: #f5f5f59e; 
    }
    .box h1{
-   
     font-size: 20px;
-       
-   
 }
 .box p{
     font-size: 14px;
-    color:#4b4949;
-    
+    color:#4b4949;  
 }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
@@ -141,22 +113,16 @@
         margin-bottom: 10px;
         padding: 20px 0px 20px 50px;
         margin-top: 50px;
-        background-color: #f5f5f5;
-      
+        background-color: #f5f5f5;     
    }
    .box h1{
-   
     font-size: 1.5rem;
-       
-   
 }
 .box p{
     font-size: 14px;
     color:#4b4949;
-    
 }}
 @media (min-width: 992px) and (max-width: 1199.98px){
-
 .box{  
     width: 450px;
     margin-top: 30vh;
@@ -164,21 +130,15 @@
     padding: 20px 0px 20px 80px;
     margin-top: 80px;
     background-color: #f5f5f5;
-  
 }
 .box h1{
-
 font-size: 1.5rem;
-   
-
 }
 .box p{
 font-size: 14px;
 color:#4b4949;
-
 }}
-@media  (min-width: 1200px){
-
+@media  (min-width: 1280px){
     .box{
         position: absolute;
         border-radius: 10px;
@@ -192,14 +152,47 @@ color:#4b4949;
         text-align: left;
         z-index: 5;   
     }
-    .box h1{
-       
+    .box h1{     
         font-size: 82px;
         color:#2f2f2f;
     }
     .box p{
         font-size: 36px;
         color:#ababab;
-    }}
-    
+    }}  
 /***past2***/
+#title2{
+    background-color: #353e47;
+}
+.icon {
+    font-size: 80px;
+    color: #9f857b;
+}
+#title2{ 
+    background-color: #353e47 !important;    
+}
+#title2 h3{
+    padding-top: 20px;
+    color: #f5f5f5!important;
+}
+#title2 h4{
+    color: #f5f5f5!important;
+}
+#title2 h4::after{
+    content: '';
+    background:  #9f857b;
+    display: block;
+    height: 3px;
+    width: 110px;
+    margin: 20px auto 5px;
+}/*--ทำให้มีเส้นใต้--*/
+#title2 h4 a{
+    text-decoration: none; 
+    color: #f5f5f5!important;
+}
+#title2 h4 a:hover{
+    text-decoration: none;
+    color: #f5f5f5!important;
+    border: 2px solid #9f857b;
+    cursor: pointer;
+}
