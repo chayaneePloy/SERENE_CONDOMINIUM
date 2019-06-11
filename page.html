@@ -1,58 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=https://getbootstrap.com/docs/4.1/components/navbar/, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="pagecss.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <title>Document</title>
-</head>
-<body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-
-                <a id="title" class="navbar-brand" href="#"><b>SERENE CONDOMINIUM</b></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Menu<span class="sr-only">(current)</span></a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              <!--2-->
-              <section id="title"></section>
-              <div class="container-fluid">
-              <div class="row">
-                  <div class="col-md-5">
-                        <div class="box">
-                                <h1>LUXURY<br> EXCLUSIVITY <br> LIFE  SYTLE</h1>
-                                <p>A life style that you just cant say no to</p>
-                            </div>
-
-                  </div>
-                  <div class="col-md-7">
-                      <div >
-                        <img class="img" src="img/bedroom2.jpg">
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>web</title>
+            <link rel="stylesheet" href="pagecss.css">
+            <link rel="stylesheet" href="css/bootstrap-grid.css">
+            <link rel="stylesheet" href="css/bootstrap-reboot.css">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    </head> 
+    <body >
+            <section id="nav-bar">
+                
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                        <a class="navbar-brand " href="#"><b>SERENE CONDOMINIUM</b></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-auto"> <!---ใส่ ml-auto ไปเรียกฟังชัน จากstyle.css ให้เมนูไปอยูทางขวามือ------->
+                            <li class="nav-item">
+                              <a class="nav-link" href="#top">Menu</a>
+                            </li>
+                        </ul>
+                        </div>
+                      </nav>
                     </div>
-                  
+                  </section> <!--จบการทำเมนู-->
 
+                  <section id="title">
+                  <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-md-4">
+                            <div class="box">
+                                    <h1>LUXURY<br> EXCLUSIVITY <br> LIFE  SYTLE</h1>
+                                    <p><b>A life style that you just cant say no to</b></p>
+                                </div>
+    
+                      </div>
+                      <div class="col-md-8">
+                          <div>
+                            <img class="img w-100" src="img/bedroom2.jpg">
+                        </div>
+                      
+    
+                      </div>
                   </div>
-              </div>
-            </div>
-            <br><br><br>
+                </div>
+                <br><br><br>
+             
+                </section>
+            <!-- past2-->
+            <section id="past-2">
+                <div class="bg-mian">
+                    <br><br><br>
+                </div>
+                
+                <div class="bg-secondary p-5">
+                    <div class="container">
+                      <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="fa fa-handshake-o"></i>
+                            <p>Investment Program</p>
+                            <h3>Lean more</h3>
+                        </div>
+                        <div class="col-md-4 border-right border-left border-dark">
+                            <i class="fa fa-handshake-o"></i>
+                            <p>Project imformation</p>
+                            <h3>Lean more</h3>
+                    
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fa fa-handshake-o"></i>
+                            <p>Local imformation</p>
+                            <h3>Lean more</h3>
+                   
+                        </div>
+                    
+                    
+                      </div>
+                    </div>
+                    </div>
+           </section>
+            
+           
          
-            </section>
-</body>
+    </body>
 </html>
