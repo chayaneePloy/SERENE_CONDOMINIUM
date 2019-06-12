@@ -362,7 +362,12 @@ color:#4b4949;
 /******** footer*************/
     #footer{
     background-color: #353e47 !important; 
+    padding: 20px 0px 20px 0px;
     }  
+    .border{
+        width: 100%
+    }
+    /*
     .border:hover{
         box-shadow: 0 2px 20px #333;
     }
