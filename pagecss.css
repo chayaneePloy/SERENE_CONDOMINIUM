@@ -29,6 +29,12 @@
      font-size: 1rem;   
  }
 }
+@media(max-width : 768px){
+    .navbar-brand  b{
+        padding-left: 0px;
+         font-size: 1rem;   
+     }
+    }
 .navbar-nav li{
     padding: 0 10px;
 }
@@ -50,6 +56,9 @@
     font-size: 16px;
 }
 /*<!--จบการทำเมนู-->*/
+#title{
+    background-color: #fff;
+}
 .box{
     position: absolute;
     border-radius: 10px;
@@ -177,22 +186,18 @@ color:#4b4949;
 }
 #title2 h4{
     color: #f5f5f5!important;
+    text-decoration: none; 
 }
 #title2 h4::after{
     content: '';
-    background:  #9f857b;
+    background:  #c59c5d;
     display: block;
     height: 3px;
     width: 110px;
-    margin: 20px auto 5px;
+    margin: 10px auto 5px;  
 }/*--ทำให้มีเส้นใต้--*/
-#title2 h4 a{
-    text-decoration: none; 
-    color: #f5f5f5!important;
-}
-#title2 h4 a:hover{
-    text-decoration: none;
-    color: #f5f5f5!important;
-    border: 2px solid #9f857b;
-    cursor: pointer;
-}
+
+#title2 h4:hover{
+    border: 2px solid  #c59c5d!important;  
+}/*--ทำให้มีเส้นใต้--*/
+
