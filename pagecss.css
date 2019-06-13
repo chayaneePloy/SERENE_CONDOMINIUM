@@ -1,9 +1,10 @@
 
-*{
+body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Helvetica, Geneva, Verdana, sans-serif;
+    width: 100%;
 } /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
 /* ----- NavigationBar เมนู-----   */
 #nav-bar{
@@ -177,6 +178,7 @@ color:#4b4949;
 .icon {
     font-size: 80px;
     color: #9f857b;
+    
 }
 .icon img{
    width: 160px;
@@ -191,34 +193,45 @@ color:#4b4949;
 }
 #title2 h4{
     color: #f5f5f5!important;
-    padding-bottom: 20px;
-    height: 53px;
-    width: 350px;
+    padding-bottom: 5px;
     text-decoration:underline;
     text-decoration-color:#c59c5d;
-    
-    
- 
 }/*text-decoration-color:transparent;*/
 #title2 h4:hover{
     border: 2px solid  #c59c5d;
+    border-radius: 5px;
     text-decoration:none;
     
- 
 }
+}
+@media (max-width: 575.98px){
+    .icon img{
+        width: 100px;
+        height: 100px;
+     }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .icon img{
+        width: 112px;
+        height: 112px;
+     }
+}
+
+}
+@media  (min-width: 1280px){
+    .icon img{
+        width: 160px;
+        height: 158px;
+     }
+}
+
 /*
 #title2 h4:hover{
     border: 2px solid  #c59c5d!important; 
     width:120px; height:3px;
     text-decoration:none;
     padding-bottom: 20px;
-
-     
-
-   
-
 }
-
 /*
 #title2 h4:hover::after{
     content: '';
@@ -242,13 +255,12 @@ color:#4b4949;
 .bg-353e47 {
     background-color: #353e47 !important;    
     width: 100%;
-    padding: 30px 0px 0px 20px;
-    
+    padding: 30px 0px 0px 0px;
   }
 .bg-fff{
     background-color: #fff;
     width: 100%;
-    padding: 30px 0px 0px 20px;
+    padding: 30px 0px 0px 0px;
 }
 .box2{
     position: absolute;
@@ -390,11 +402,9 @@ color:#4b4949;
 /******** footer*************/
     #footer{
     background-color: #353e47 !important; 
-    padding: 20px 0px 20px 0px;
-    }  
-    .border{
-        width: 100%
-    }
+padding-bottom: 20px;
+       }  
+    
     /*
     .border:hover{
         box-shadow: 0 2px 20px #333;
@@ -416,7 +426,29 @@ color:#4b4949;
       font-size: 18px; 
       list-style: none; /* ไม่มีจุด*/ 
       display: inline-block;
+    }
 
+    #footer h3{
+        color: #3e3e3e;
+        text-align: left;
+    }
+   
+    .foot-icon img{
+        width: 32px;
+        height: 32px;
+    }
+    .foot-icon ul li {
+      list-style: none; /* ไม่มีจุด*/ 
+      display: inline-block;
       
     }
- 
+    .foot-logo ul li {
+        font-size: 18px; 
+        list-style: none; /* ไม่มีจุด*/ 
+        display: inline-block;
+        
+      }
+    .foot-logo img{
+        width: 244px;
+        height: 176px;
+        }
