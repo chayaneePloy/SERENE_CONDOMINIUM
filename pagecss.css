@@ -251,6 +251,7 @@ color:#4b4949;
     float: right;
     font-size:48px;
     color: #d2a894!important; 
+   
 }
 .bg-353e47 {
     background-color: #353e47 !important;    
@@ -311,7 +312,7 @@ color:#4b4949;
     .point{
         float: right;
         font-size:14px;
-        padding: 0px 50px 0px 0px
+        padding: 20px 50px 0px 0px
     }
     .box2{  
         width: 350px;
@@ -332,8 +333,8 @@ color:#4b4949;
 @media (min-width: 768px) and (max-width: 991.98px){
     .point{
         float: right;
-        font-size:18px;
-        padding: 0px 50px 0px 0px
+        font-size:20px;
+        padding: 20px 50px 0px 0px
     }
     .box2{  
         width: 400px;
@@ -352,8 +353,8 @@ color:#4b4949;
 @media (min-width: 992px) and (max-width: 1199.98px){
     .point{
         float: right;
-        font-size:18px;
-        padding: 0px 50px 0px 0px
+        font-size:24px;
+        padding: 20px 50px 0px 0px
     }
 .box2{  
     width: 450px;
@@ -370,6 +371,11 @@ font-size: 14px;
 color:#4b4949;
 }}
 @media  (min-width: 1280px){
+    .point{
+        float: right;
+        font-size:48px;
+        padding: 60px 0px 0px 0px;
+    }
     .box2{
         position: absolute;
         border-radius: 10px;
@@ -402,7 +408,7 @@ color:#4b4949;
 /******** footer*************/
     #footer{
     background-color: #353e47 !important; 
-padding-bottom: 20px;
+    padding-bottom: 20px;
        }  
     
     /*
@@ -418,37 +424,159 @@ padding-bottom: 20px;
         display: inline-block;
     }/*ทำให้ไอคอนในli อยู่บรรทัดเดียวกัน */
     .foot-icon img{
-        width: 32px;
-        height: 32px;
-
-    }
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+     }
     .foot-icon ul li {
       font-size: 18px; 
       list-style: none; /* ไม่มีจุด*/ 
       display: inline-block;
     }
-
-    #footer h3{
+    #footer h3 {
         color: #3e3e3e;
         text-align: left;
+        font-size: 34px;
+        font-weight: bold;
     }
-   
-    .foot-icon img{
-        width: 32px;
-        height: 32px;
+    ul{
+        text-align: right;
     }
     .foot-icon ul li {
       list-style: none; /* ไม่มีจุด*/ 
       display: inline-block;
-      
     }
     .foot-logo ul li {
-        font-size: 18px; 
+        font-size: 22px; 
         list-style: none; /* ไม่มีจุด*/ 
         display: inline-block;
         
-      }
+    }
+  
+    /*
     .foot-logo img{
         width: 244px;
         height: 176px;
+    }*/
+    .foot-logo img{
+        width: 100%;
+    }
+    @media (max-width: 575.98px){
+        .container-fluid{
+            padding: 0px 0px 0px 0px;
+        } 
+        .foot-icon img{
+            width: 18px;
+            height: 18px;
+            padding: 0px;
+            text-align: center;
         }
+        .foot-icon ul{
+            text-align: center;
+            padding-left: 0px;
+        }
+        .foot-icon ul li {
+          font-size: 14px; 
+          
+        }
+        #footer h3 {
+            text-align: center;
+            font-size: 14px;
+        }
+        .foot-logo ul li {
+            font-size: 14px; 
+        }
+    }
+        @media (min-width: 576px) and (max-width: 767.98px){
+            .container-fluid{
+                padding: 0px 0px 0px 0px;
+            } 
+            .foot-icon img{
+                width: 22px;
+                height: 22px;
+                padding: 0px;
+                text-align: center;
+            }
+            .foot-icon ul{
+            text-align: center;
+            padding-left: 0px;
+            }
+            .foot-icon ul li {
+              font-size: 14px; 
+              
+            }
+            #footer h3 {
+                text-align: center;
+                font-size: 18px;
+            }
+            .foot-logo ul li {
+                font-size: 14px; 
+            }}
+            @media (min-width: 768px) and (max-width: 991.98px){
+                .container-fluid{
+                    padding: 0px 0px 0px 0px;
+                } 
+                .foot-icon img{
+                    width: 22px;
+                    height: 22px;
+                    padding: 0px;
+                    text-align: center;
+                }
+                .foot-icon ul{
+                    padding: 0px 0px 0px 251px;
+                }
+                .foot-icon ul li {
+                  font-size: 14px; 
+                  
+                }
+                #footer h3 {
+                    text-align: left;
+                    font-size: 18px;
+                }
+                .foot-logo ul li {
+                    font-size: 14px; 
+                }}
+                @media (min-width: 992px) and (max-width: 1199.98px){
+                    .container-fluid{
+                        padding: 0px 0px 0px 0px;
+                    } 
+                    .foot-icon img{
+                        width: 28px;
+                        height: 28px;
+                        padding: 0px;
+                        text-align: center;
+                    }
+                    .foot-icon ul{
+                        padding: 0px 0px 0px 251px;
+                    }
+                    .foot-icon ul li {
+                      font-size: 14px; 
+                      
+                    }
+                    #footer h3 {
+                        text-align: left;
+                        font-size: 18px;
+                    }
+                    .foot-logo ul li {
+                        font-size: 14px; 
+                    }
+                }
+
+ @media  (min-width: 1280px){
+    .container-fluid{
+    padding: 72px 122px 122px 122px;
+    } 
+    .foot-icon img{
+        width: 45px;
+        height: 45px;
+        padding: 0px;
+        text-align: right;
+    }
+    ul{
+        text-align: right;
+    }
+    #footer h3 {
+        text-align: left;
+        font-size: 26px;
+    }
+}
