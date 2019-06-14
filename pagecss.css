@@ -203,21 +203,72 @@ color:#4b4949;
     text-decoration:none;
     
 }
-}
+
 @media (max-width: 575.98px){
     .icon img{
         width: 100px;
         height: 100px;
      }
+    #title2 h3{
+        padding-top: 0px;
+        font-size: 22px;
+    }
+    #title2 h4{
+        font-size: 20px;
+    }
+    #title2 col-md-9
+    {
+        padding: 0px;
+    }
+    #title2 col-md-3{
+        padding: 0px;
+    }
+    .bg-fff{
+        padding: 2px!important;
+    }
+    .bg-353e47{
+        padding: 0px!important;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
+    .icon img{
+        width: 100px;
+        height: 100px;
+     }
+    #title2 h3{
+        padding-top: 0px;
+        font-size: 22px;
+    }
+    #title2 h4{
+        font-size: 20px;
+    }
+    #title2 col-md-9
+    {
+        padding: 0px;
+    }
+    #title2 col-md-3{
+        padding: 0px;
+    }
+    #title2 bg-fff{
+        padding: 2px!important;
+    }
+    #title2 bg-353e47{
+        padding: 0px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .icon img{
+        width: 100px;
+        height: 100px;
+     }
+    }
+@media (min-width: 992px) and (max-width: 1199.98px){
     .icon img{
         width: 112px;
         height: 112px;
      }
-}
+    }
 
-}
 @media  (min-width: 1280px){
     .icon img{
         width: 160px;
@@ -264,7 +315,6 @@ color:#4b4949;
     padding: 30px 0px 0px 0px;
 }
 .box2{
-    position: absolute;
     border-radius: 10px;
     width: 900px;
     margin-top: 200px;
@@ -286,18 +336,19 @@ color:#4b4949;
     color:#ababab;
 }
 @media (max-width: 575.98px){
+    
     .point{
         float: right;
-        font-size:14px;
-        padding: 0px 50px 0px 0px
+        font-size:16px;
+        padding: 23px 47px 0px 0px
         
     }
-    .box2{  
-        width: 300px;
+    .box2{ 
+        width: 100%;
         margin-top: 50px;
         margin-bottom: 10px;
         padding: 20px 0px 20px 30px;
-        margin-top: 30px;
+        margin-top: 3px;
         background-color: #f5f5f59e;
    }
    .box2 h1{   
@@ -307,26 +358,27 @@ color:#4b4949;
     font-size: 14px;
     color:#4b4949;  
 }
+
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     .point{
         float: right;
-        font-size:14px;
+        font-size:22px;
         padding: 20px 50px 0px 0px
     }
     .box2{  
-        width: 350px;
-        margin-top: 50px;
-        margin-bottom: 10px;
-        padding: 30px 0px 20px 30px;
-        margin-top: 30px;
-        background-color: #f5f5f59e; 
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px 0px 20px 30px;
+       
+        background-color: #f5f5f5;
    }
    .box2 h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 .box2 p{
-    font-size: 14px;
+    font-size: 16px;
     color:#4b4949;  
 }
 }
@@ -337,6 +389,7 @@ color:#4b4949;
         padding: 20px 50px 0px 0px
     }
     .box2{  
+        position: absolute;
         width: 400px;
         margin-bottom: 10px;
         padding: 50px 0px 50px 50px;
@@ -357,6 +410,7 @@ color:#4b4949;
         padding: 20px 50px 0px 0px
     }
 .box2{  
+    position: absolute;
     width: 450px;
     margin-bottom: 10px;
     padding: 60px 0px 60px 80px;
@@ -401,6 +455,8 @@ color:#4b4949;
     #title4{
         background-color: #fff;
     }
+   
+   
     /******** past 5*************/
     #title5{
         background-color: #fff;
@@ -410,6 +466,9 @@ color:#4b4949;
     background-color: #353e47 !important; 
     padding-bottom: 20px;
        }  
+    .container-fluid{
+        padding: 0px 0px 0px 0px;
+    } 
     
     /*
     .border:hover{
@@ -461,6 +520,9 @@ color:#4b4949;
     .foot-logo img{
         width: 100%;
     }
+    .col-md-6{
+        padding: 0px 0px!important;
+    }
     @media (max-width: 575.98px){
         .container-fluid{
             padding: 0px 0px 0px 0px;
@@ -491,6 +553,9 @@ color:#4b4949;
             .container-fluid{
                 padding: 0px 0px 0px 0px;
             } 
+            .col-md-4{
+                padding: 0px;
+            }
             .foot-icon img{
                 width: 22px;
                 height: 22px;
@@ -564,7 +629,7 @@ color:#4b4949;
 
  @media  (min-width: 1280px){
     .container-fluid{
-    padding: 72px 122px 122px 122px;
+    padding: 72px 122px 0px 122px;
     } 
     .foot-icon img{
         width: 45px;
