@@ -12,7 +12,7 @@ body{
     position: sticky!important;
     top: 0;
     z-index: 10!important;
-    padding: 50px 0px;   
+    padding: 20px 0px;   
 }
 .navbar-brand  b{
     font-size: 3rem;
@@ -39,6 +39,7 @@ body{
     }
 .navbar-nav li{
     padding: 0 10px;
+    padding-right: 70px;
 }
 /*nav-nav เรียกใช้จากboostarp กำหนดความกว้างระหว่างเมนู */
 .navbar-nav li a{
@@ -84,6 +85,10 @@ body{
     color:#ababab;
 }
 @media (max-width: 575.98px){
+    .navbar-nav li{
+        padding: 0 10px;
+        padding-right: 0px!important;
+    }
     .box{  
         width: 300px;
         margin-top: 50px;
@@ -101,6 +106,10 @@ body{
 }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
+    .navbar-nav li{
+        padding: 0 10px;
+        padding-right: 0px!important;
+    }
     .box{  
         width: 425px;
         margin-top: 50px;
@@ -118,6 +127,10 @@ body{
 }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
+    .navbar-nav li{
+        padding: 0 10px;
+        padding-right: 0px!important;
+    }
     .box{  
         width: 400px;
         margin-top: 30vh;
@@ -134,6 +147,10 @@ body{
     color:#4b4949;
 }}
 @media (min-width: 992px) and (max-width: 1199.98px){
+    .navbar-nav li{
+        padding: 0 10px;
+        padding-right: 0px!important;
+    }
 .box{  
     width: 450px;
     margin-top: 30vh;
@@ -512,6 +529,7 @@ color:#4b4949;
     #footer{
     background-color: #353e47 !important; 
     padding-bottom: 20px;
+   
        }  
     .container-fluid{
         padding: 0px 0px 0px 0px;
@@ -694,4 +712,64 @@ color:#4b4949;
     .boder{
         margin: 50px 100px 0px 100px;
     }
+}
+@media (max-width: 575.98px){
+    .col-lg-8{
+    margin: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  .col-lg-8{
+    margin: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .col-lg-8{
+    margin: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .container{
+      padding-left: 28px;
+  }
+}
+@media  (min-width: 1200px)and (max-width: 1279.98px){
+  .col-lg-8{
+    margin: 0px;
+  }
+}
+.l-sidenav {
+    position: fixed; 
+    z-index: 1040; 
+    top: 0; 
+    left: 0;    
+    height: 100%; 
+    width: 0; 
+    overflow-x: hidden; 
+}   
+/*sidemenu ด้านขวา*/
+.r-sidenav {
+    position: fixed; 
+    z-index: 1040; 
+    top: 0; 
+    right: 0;   
+    height: 100%; 
+    width: 0; 
+    overflow-x: hidden; 
+}   
+/*คลุมดำพื้นที่เนื้อหา*/
+.page-overlay-bg{
+    position: absolute;
+    z-index: 1040;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);  
+}  
+#contact{
+        background-color: #ffffff !important;
+        position: fixed!important;
+        top: 0;
+        z-index: 10!important;
+        padding: 20px 0px;   
+    
 }
