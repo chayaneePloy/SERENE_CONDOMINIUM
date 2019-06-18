@@ -8,11 +8,11 @@ body{
 } /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
 /* ----- NavigationBar เมนู-----   */
 #nav-bar{
-    background-color: #ffffff !important;
+   background-color: #ffffff !important;
     position: sticky!important;
-    top: 0;
+    top: 0; 
     z-index: 10!important;
-    padding: 0px 0px;   
+   padding: 0px 5px;   
 }
 .navbar-brand  b{
     font-size: 3rem;
@@ -38,8 +38,8 @@ body{
      }
     }
 .navbar-nav li{
-    padding: 0 10px;
-    padding-right: 70px;
+    padding: 0 5px;
+    
 }
 /*nav-nav เรียกใช้จากboostarp กำหนดความกว้างระหว่างเมนู */
 .navbar-nav li a{
@@ -86,8 +86,8 @@ body{
 }
 @media (max-width: 575.98px){
     .navbar-nav li{
-        padding: 0 10px;
-        padding-right: 0px!important;
+        padding: 0 0px;
+      
     }
     .box{  
         width: 300px;
@@ -107,8 +107,8 @@ body{
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     .navbar-nav li{
-        padding: 0 10px;
-        padding-right: 0px!important;
+        padding: 0 0px;
+       
     }
     .box{  
         width: 425px;
@@ -128,7 +128,7 @@ body{
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     .navbar-nav li{
-        padding: 0 10px;
+        padding: 0 0px;
         padding-right: 0px!important;
     }
     .box{  
@@ -148,7 +148,7 @@ body{
 }}
 @media (min-width: 992px) and (max-width: 1199.98px){
     .navbar-nav li{
-        padding: 0 10px;
+        padding: 0 0px;
         padding-right: 0px!important;
     }
 .box{  

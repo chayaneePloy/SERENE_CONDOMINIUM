@@ -1,310 +1,468 @@
 <html>
-    <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>web</title>
-            <link rel="stylesheet" href="pagecss.css">
-            <link rel="stylesheet" href="css/bootstrap-grid.css">
-            <link rel="stylesheet" href="css/bootstrap-reboot.css">
-            <link rel="stylesheet" href="css/bootstrap.css">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-    </head> 
-    <body >
-            <section id="nav-bar">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                        <a class="navbar-brand " href="#"><b>SERENE CONDOMINIUM</b></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          
-                          <ul class="navbar-nav ml-auto"> <!---ใส่ ml-auto ไปเรียกฟังชัน จากstyle.css ให้เมนูไปอยูทางขวามือ------->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#top">Menu</a>
-                         </li>
-                          </ul>
-                        </div>         
-              </div>
-                  </section> 
-                <!-- Button trigger modal -->
-                
-                
 
-                <div class="ri">
-                <div class="row text-center "> 
-                    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>web</title>
+  <link rel="stylesheet" href="pagecss.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/contact.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
 
-                <button type="button" class="w-30 btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
-                    Contact
-                  </button>
-                  
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
+<body>
+  <section>
+    <div id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand " href="#"><b>SERENE CONDOMINIUM</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!---ใส่ ml-auto ไปเรียกฟังชัน จากstyle.css ให้เมนูไปอยูทางขวามือ------->
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Menu</a>
+            <li><a class="nav-link" data-toggle="modal" href="#myModal">Contact</a></li>
+            </li>
+            </ul>
+           
+          </div>
+<!--
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
+              Contact
+            </button>
+            <!-- Modal -->
+<!--          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="false">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="false">&times;</span>
+                    </button>
                   </div>
-                </div>
-                </div>
-                  
-                
-      
-                  <!--จบการทำเมนู-->
-                  <section id="title">
-                  <div class="container-fluid">
-                  <div class="row">
-                      <div class="col-md-4">
-                            <div class="box">
-                                    <h1>LUXURY<br> EXCLUSIVITY <br> LIFE  SYTLE</h1>
-                                    <p><b>A life style that you just cant say no to</b></p>
-                                </div>
-                      </div>
-                      <div class="col-md-8 p-0">
-                          <div>
-                            <img class="img w-100" src="img/bedroom2.jpg">
-                        </div>
-                      </div>
-                  </div>
-                </div>
-                </section>
-            <!-- past2 -->
-          
-               <section id="title2">
-                    <div class="container py-5 ">
-                      <div class="row text-center pt-3 pb-5 ">
-                        <div class="col-md-4">
-                          <div class="icon">
-                              <img class="img" src="img/icon1.PNG">
-                           <!-- <i class="fa fa-handshake-o"></i>-->
-                             </div>
-                        <h3>Project imformation</h3>
-                        <h4>Lean more</h4>
-                      
-                            
-                        </div>
-                        <div class="col-md-4 border-right border-left border-white">
-                            <div class="icon">
-                                <img class="img" src="img/icon2.PNG">
-                             <!-- <i class="fa fa-handshake-o"></i>-->
+                  <div class="modal-body">
+                    <div class="container pt-5  alert alert-secondary">
+                      <div class="col-lg-12 py-5">
+                        <h1>Contact Us</h1>
+                        <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
+                          method="post" role="form">
+                          <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustom01">First name</label>
+                              <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                                name="FirstName" required>
+                              <div class="valid-feedback">
+                                Looks good!
                               </div>
-                            <h3>Project imformation</h3>
-                            <h4>Lean more</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="icon">
-                                <img class="img" src="img/icon3.PNG">
-                             <!-- <i class="fa fa-handshake-o"></i>-->
-                               </div>
-                            <h3>Local imformation</h3>
-                            <h4>Lean more</h4>
-                        </div>
-                       </div>
-                    </div>
-          </section>
-         
-          <!-------past3-LUXURY---->
-          <section id="title3">
-              <div class="container-fluid bg-353e47">
-                  <div class="row">
-                      <div class="col-md-9 bg-fff">
-                        <div class="bg-fff">
-
-                        </div>
-                        </div>
-                        <div class="col-md-3 bg-353e47">
-                            <div class="bg-353e47">
-                             
+                            </div>
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustom02">Last name</label>
+                              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                                name="LastName" required>
+                              <div class="valid-feedback">
+                                Looks good!
                               </div>
-                        </div>
-                  </div>
-              <div class="row">
-                  <div class="col-md-4 bg-fff">
-                        <div class="box2">
-                            <div class="point">
-                                <i class="fa fa-external-link "> </i>
                             </div>
-                                <h1>LUXURY</h1>
-                               
-                                <p><b>Purity in its finest form</b></p>
-                                
-                                <a href=""> </a>
-                            </div>
-                  </div>
-                  <div class="col-md-8 p-0">
-                      <div>
-                        <img class="img w-100" src="img/bedroom2.jpg">
-                    </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-9 bg-fff">
-                    <div class="bg-fff">
-
-                    </div>
-                    </div>
-                    <div class="col-md-3 bg-353e47">
-                        <div class="bg-353e47">
-                         
                           </div>
-                    </div>
+                          <div class="form-row">
+                            <div class="col-md-6 mb-6">
+                              <label for="validationCustomUsername">Email</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend"><i
+                                      class="fa fa-envelope-o"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                  placeholder="Email" aria-describedby="inputGroupPrepend" name="Email" required>
+                                <div class="invalid-feedback">
+                                  Please choose a email.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustomUsername">Phone</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend"><i
+                                      class="fa fa-phone"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                  placeholder="Phone" aria-describedby="inputGroupPrepend" name="Phone" required>
+                                <div class="invalid-feedback">
+                                  Please choose a phone.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label for="form_message">Message</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message"
+                                  rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            </div>
+                          </div>
+                      </div>
+                      </form>
+                      <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (function () {
+                          'use strict';
+                          window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                              form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                  event.preventDefault();
+                                  event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                              }, false);
+                            });
+                          }, false);
+                        })();
+                      </script>
+                <!--     </div>
+                  </div>
+                </div>
               </div>
             </div>
-            </section>
-            <!-------past4 ----->
-            <section id="title4">
-                <div class="container-fluid bg-353e47">
-                    <div class="row">
-                        <div class="col-md-9 bg-fff">
-                          <div class="bg-fff">
-  
-                          </div>
-                          </div>
-                          <div class="col-md-3 bg-353e47">
-                              <div class="bg-353e47">
-                               
-                              </div>
-                          </div>
-                    </div>
-                <div class="row">
-                    <div class="col-md-4 bg-fff">
-                          <div class="box2">
-                              <div class="point">
-                                  <i class="fa fa-external-link"> </i>
-                              </div>
-                                  <h1>EXCLUSIVITY</h1>
-                                  <p><b>Purity in its finest form</b></p>
-                                  
-                                  <a href=""> </a>
-                              </div>
-                    </div>
-                    <div class="col-md-8 p-0">
-                        <div>
-                          <img class="img w-100" src="img/bedroom2.jpg">
-                      </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-9 bg-fff">
-                      <div class="bg-fff">
-  
-                      </div>
-                      </div>
-                      <div class="col-md-3 bg-353e47">
-                          <div class="bg-353e47">
-                           
-                            </div>
-                      </div>
-                </div>
+       
+      </div>-->
+      </div>
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Modal title</h4>
               </div>
-              </section>
-               <!-------past5 LIFE STYLE----->
-          <section id="title5">
-                <div class="container-fluid bg-353e47">
-                    <div class="row">
-                        <div class="col-md-9 bg-fff">
-                          <div class="bg-fff">
-  
-                          </div>
-                          </div>
-                          <div class="col-md-3 bg-353e47">
-                              <div class="bg-353e47">
-                               
+              <div class="modal-body">
+                  <div class="container pt-5  alert alert-secondary">
+                      <div class="col-lg-12 py-5">
+                        <h1>Contact Us</h1>
+                        <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
+                          method="post" role="form">
+                          <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustom01">First name</label>
+                              <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                                name="FirstName" required>
+                              <div class="valid-feedback">
+                                Looks good!
                               </div>
-                          </div>
-                    </div>
-                <div class="row">
-                    <div class="col-md-4 bg-fff">
-                          <div class="box2">
-                              <div class="point">
-                                  <i class="fa fa-external-link"> </i>
-                              </div>
-                                  <h1>LIFE STYLE</h1>
-                                  <p><b>Purity in its finest form</b></p>
-                                  
-                                  <a href=""> </a>
-                              </div>
-                    </div>
-                    <div class="col-md-8 p-0">
-                        <div>
-                          <img class="img w-100" src="img/bedroom2.jpg">
-                      </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-9 bg-fff">
-                      <div class="bg-fff">
-  
-                      </div>
-                      </div>
-                      <div class="col-md-3 bg-353e47">
-                          <div class="bg-353e47">
-                           
                             </div>
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustom02">Last name</label>
+                              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                                name="LastName" required>
+                              <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-row">
+                            <div class="col-md-6 mb-6">
+                              <label for="validationCustomUsername">Email</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend"><i
+                                      class="fa fa-envelope-o"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                  placeholder="Email" aria-describedby="inputGroupPrepend" name="Email" required>
+                                <div class="invalid-feedback">
+                                  Please choose a email.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                              <label for="validationCustomUsername">Phone</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupPrepend"><i
+                                      class="fa fa-phone"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                  placeholder="Phone" aria-describedby="inputGroupPrepend" name="Phone" required>
+                                <div class="invalid-feedback">
+                                  Please choose a phone.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label for="form_message">Message</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message"
+                                  rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            </div>
+                          </div>
                       </div>
-                </div>
+                      </form>
+                      <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (function () {
+                          'use strict';
+                          window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                              form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                  event.preventDefault();
+                                  event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                              }, false);
+                            });
+                          }, false);
+                        })();
+                      </script>
               </div>
-              </section>
-              <section id="footer">
-              <div class="container-fluid bg-353e47">
-             
-                <div class="boder bg-white rounded">
-                  <div class="row pt-5 pr-5 pl-5">
-            
-                    <div class="col-md-6">
-                        <h3>+66 (0)9-50-87-89-55</h3>
-                        <h3>support@dreamcondo.com</h3>
-                        
-                    </div>
-                    <div class="col-md-6">
-                        <div class="foot-icon">
-                            <ul>
-                                <li> <img src="img/twitter.png"></li>
-                                <li><img src="img/facebook.png""></li>
-                                <li><img src="img/instagram.png""></li>
-                                <li><img src="img/linkedin.png""></li>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+  </section>
+ <!--  Button trigger modal -->
+
+  
+
+  <!--จบการทำเมนู-->
+  <section id="title">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <h1>LUXURY<br> EXCLUSIVITY <br> LIFE SYTLE</h1>
+            <p><b>A life style that you just cant say no to</b></p>
+          </div>
+        </div>
+        <div class="col-md-8 p-0">
+          <div>
+            <img class="img w-100" src="img/bedroom2.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- past2 -->
+  <section id="title2">
+    <div class="container py-5 ">
+      <div class="row text-center pt-3 pb-5 ">
+        <div class="col-md-4">
+          <div class="icon">
+            <img class="img" src="img/icon1.PNG">
+            <!-- <i class="fa fa-handshake-o"></i>-->
+          </div>
+          <h3>Project imformation</h3>
+          <h4>Lean more</h4>
+        </div>
+        <div class="col-md-4 border-right border-left border-white">
+          <div class="icon">
+            <img class="img" src="img/icon2.PNG">
+            <!-- <i class="fa fa-handshake-o"></i>-->
+          </div>
+          <h3>Project imformation</h3>
+          <h4>Lean more</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="icon">
+            <img class="img" src="img/icon3.PNG">
+            <!-- <i class="fa fa-handshake-o"></i>-->
+          </div>
+          <h3>Local imformation</h3>
+          <h4>Lean more</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------past3-LUXURY---->
+  <section id="title3">
+    <div class="container-fluid bg-353e47">
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-fff">
+          <div class="box2">
+            <div class="point">
+              <i class="fa fa-external-link "> </i>
+            </div>
+            <h1>LUXURY</h1>
+            <p><b>Purity in its finest form</b></p>
+            <a href=""> </a>
+          </div>
+        </div>
+        <div class="col-md-8 p-0">
+          <div>
+            <img class="img w-100" src="img/bedroom2.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------past4 ----->
+  <section id="title4">
+    <div class="container-fluid bg-353e47">
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-fff">
+          <div class="box2">
+            <div class="point">
+              <i class="fa fa-external-link"> </i>
+            </div>
+            <h1>EXCLUSIVITY</h1>
+            <p><b>Purity in its finest form</b></p>
+            <a href=""> </a>
+          </div>
+        </div>
+        <div class="col-md-8 p-0">
+          <div>
+            <img class="img w-100" src="img/bedroom2.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------past5 LIFE STYLE----->
+  <section id="title5">
+    <div class="container-fluid bg-353e47">
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-fff">
+          <div class="box2">
+            <div class="point">
+              <i class="fa fa-external-link"> </i>
+            </div>
+            <h1>LIFE STYLE</h1>
+            <p><b>Purity in its finest form</b></p>
+            <a href=""> </a>
+          </div>
+        </div>
+        <div class="col-md-8 p-0">
+          <div>
+            <img class="img w-100" src="img/bedroom2.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 bg-fff">
+          <div class="bg-fff">
+          </div>
+        </div>
+        <div class="col-md-3 bg-353e47">
+          <div class="bg-353e47">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container-fluid bg-353e47">
+      <div class="boder bg-white rounded">
+        <div class="row pt-5 pr-5 pl-5">
+          <div class="col-md-6">
+            <h3>+66 (0)9-50-87-89-55</h3>
+            <h3>support@dreamcondo.com</h3>
+          </div>
+          <div class="col-md-6">
+            <div class="foot-icon">
+              <ul>
+                <li> <img src="img/twitter.png"></li>
+                <li><img src="img/facebook.png""></li>
+                                <li><img src=" img/instagram.png""> </li> <li><img src="img/linkedin.png""></li>
                               </ul>
                             </div>
                         </div>
                   </div>
-       
-                    <div class="foot-logo text-center pb-2">
-                    
-                      
-                           
-                         <img src="img/logo-foot.png">
-                           
-                            
-                          </ul>
-                        </div>
-                    
-                    
-                </div>
-              </div>
-            </section>  
-<script>
-            $('#myModal').on('shown.bs.modal', function () {
-              $('#myInput').trigger('focus')
-            })
-          </script>
-    </body>
+                    <div class=" foot-logo text-center pb-2">
+                  <img src="img/logo-foot.png">
+            </div>
+          </div>
+        </div>
+  </section>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+</body>
+
 </html>
