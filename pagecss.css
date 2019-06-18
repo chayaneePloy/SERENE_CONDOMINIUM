@@ -12,7 +12,7 @@ body{
     position: sticky!important;
     top: 0;
     z-index: 10!important;
-    padding: 20px 0px;   
+    padding: 0px 0px;   
 }
 .navbar-brand  b{
     font-size: 3rem;
@@ -738,18 +738,17 @@ color:#4b4949;
     margin: 0px;
   }
 }
-.l-sidenav {
-    position: fixed; 
-    z-index: 1040; 
-    top: 0; 
-    left: 0;    
-    height: 100%; 
-    width: 0; 
-    overflow-x: hidden; 
-}   
-/*sidemenu ด้านขวา*/
+ 
+.contact{
+        
+        position: fixed!important;
+        text-align: right;
+        z-index: 10!important;
+        padding: 20px 0px;   
+    
+}
 .r-sidenav {
-    position: fixed; 
+    position: absolute; 
     z-index: 1040; 
     top: 0; 
     right: 0;   
@@ -757,19 +756,13 @@ color:#4b4949;
     width: 0; 
     overflow-x: hidden; 
 }   
-/*คลุมดำพื้นที่เนื้อหา*/
-.page-overlay-bg{
+.popup{
+    position: absolute; 
+    z-index: 1040; 
+}
+.w-30{
+    width: 30%;
     position: absolute;
-    z-index: 1040;
-    width: 0;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);  
-}  
-#contact{
-        background-color: #ffffff !important;
-        position: fixed!important;
-        top: 0;
-        z-index: 10!important;
-        padding: 20px 0px;   
-    
+    text-align: right;
+
 }
