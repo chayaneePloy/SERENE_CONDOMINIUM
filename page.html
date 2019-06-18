@@ -34,137 +34,26 @@
             <a class="nav-link" href="#top">Menu</a>
             <li><a class="nav-link" data-toggle="modal" href="#myModal">Contact</a></li>
             </li>
-            </ul>
-           
+            </ul>     
           </div>
-<!--
-            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
-              Contact
-            </button>
-            <!-- Modal -->
-<!--          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-              aria-labelledby="exampleModalCenterTitle" aria-hidden="false">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="false">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="container pt-5  alert alert-secondary">
-                      <div class="col-lg-12 py-5">
-                        <h1>Contact Us</h1>
-                        <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
-                          method="post" role="form">
-                          <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                              <label for="validationCustom01">First name</label>
-                              <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
-                                name="FirstName" required>
-                              <div class="valid-feedback">
-                                Looks good!
-                              </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                              <label for="validationCustom02">Last name</label>
-                              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
-                                name="LastName" required>
-                              <div class="valid-feedback">
-                                Looks good!
-                              </div>
-                            </div>
-                          </div>
-                          <div class="form-row">
-                            <div class="col-md-6 mb-6">
-                              <label for="validationCustomUsername">Email</label>
-                              <div class="input-group">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroupPrepend"><i
-                                      class="fa fa-envelope-o"></i></span>
-                                </div>
-                                <input type="text" class="form-control" id="validationCustomUsername"
-                                  placeholder="Email" aria-describedby="inputGroupPrepend" name="Email" required>
-                                <div class="invalid-feedback">
-                                  Please choose a email.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                              <label for="validationCustomUsername">Phone</label>
-                              <div class="input-group">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroupPrepend"><i
-                                      class="fa fa-phone"></i></span>
-                                </div>
-                                <input type="text" class="form-control" id="validationCustomUsername"
-                                  placeholder="Phone" aria-describedby="inputGroupPrepend" name="Phone" required>
-                                <div class="invalid-feedback">
-                                  Please choose a phone.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="form-group">
-                                <label for="form_message">Message</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message"
-                                  rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <input type="submit" class="btn btn-success btn-send" value="Send message">
-                            </div>
-                          </div>
-                      </div>
-                      </form>
-                      <script>
-                        // Example starter JavaScript for disabling form submissions if there are invalid fields
-                        (function () {
-                          'use strict';
-                          window.addEventListener('load', function () {
-                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                            var forms = document.getElementsByClassName('needs-validation');
-                            // Loop over them and prevent submission
-                            var validation = Array.prototype.filter.call(forms, function (form) {
-                              form.addEventListener('submit', function (event) {
-                                if (form.checkValidity() === false) {
-                                  event.preventDefault();
-                                  event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                              }, false);
-                            });
-                          }, false);
-                        })();
-                      </script>
-                <!--     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-       
-      </div>-->
       </div>
       <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">Modal title</h4>
-              </div>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
               <div class="modal-body">
-                  <div class="container pt-5  alert alert-secondary">
-                      <div class="col-lg-12 py-5">
-                        <h1>Contact Us</h1>
+                  <div class="container alert alert-secondary">
+                      <div class="col-lg-12 py-3">
+                        <h2>Please contact me !</h2>
                         <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
                           method="post" role="form">
                           <div class="form-row">
                             <div class="col-md-6 mb-3">
-                              <label for="validationCustom01">First name</label>
                               <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
                                 name="FirstName" required>
                               <div class="valid-feedback">
@@ -172,7 +61,6 @@
                               </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                              <label for="validationCustom02">Last name</label>
                               <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
                                 name="LastName" required>
                               <div class="valid-feedback">
@@ -181,8 +69,7 @@
                             </div>
                           </div>
                           <div class="form-row">
-                            <div class="col-md-6 mb-6">
-                              <label for="validationCustomUsername">Email</label>
+                            <div class="col-md-6 mb-3">
                               <div class="input-group">
                                 <div class="input-group-prepend">
                                   <span class="input-group-text" id="inputGroupPrepend"><i
@@ -196,7 +83,6 @@
                               </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                              <label for="validationCustomUsername">Phone</label>
                               <div class="input-group">
                                 <div class="input-group-prepend">
                                   <span class="input-group-text" id="inputGroupPrepend"><i
@@ -211,15 +97,14 @@
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 mb-12" style="padding: 11px;">
                               <div class="form-group">
-                                <label for="form_message">Message</label>
                                 <textarea id="form_message" name="message" class="form-control" placeholder="Message"
                                   rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                 <div class="help-block with-errors"></div>
                               </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12" style="padding-left: 11px;">
                               <input type="submit" class="btn btn-success btn-send" value="Send message">
                             </div>
                           </div>
@@ -246,10 +131,7 @@
                         })();
                       </script>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
+              
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
