@@ -11,7 +11,7 @@ body{
     position: sticky!important;
     top: 0;
     z-index: 10!important;
-    padding: 20px 0px;   
+    padding: 10px 0px;   
 }
 .navbar-brand  b{
     font-size: 3rem;
