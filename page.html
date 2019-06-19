@@ -10,17 +10,14 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="js/contact.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <section>
-    <div id="nav-bar">
+  <section id="nav-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand " href="#"><b>SERENE CONDOMINIUM</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -28,118 +25,115 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+
         <ul class="navbar-nav ml-auto">
           <!---ใส่ ml-auto ไปเรียกฟังชัน จากstyle.css ให้เมนูไปอยูทางขวามือ------->
           <li class="nav-item">
-            <a class="nav-link" href="#top">Menu</a>
-            <li><a class="nav-link" data-toggle="modal" href="#myModal">Contact</a></li>
-            </li>
-            </ul>     
-          </div>
+            <a class="nav-link" href="#top">Menu</a> </li>
+          <li><a class="nav-link" data-toggle="modal" href="#myModal">Contact</a></li>
+        </ul>
       </div>
-      <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-              <div class="modal-body">
-                  <div class="container alert alert-secondary">
-                      <div class="col-lg-12 py-3">
-                        <h2>Please contact me !</h2>
-                        <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
-                          method="post" role="form">
-                          <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                              <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
-                                name="FirstName" required>
-                              <div class="valid-feedback">
-                                Looks good!
-                              </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
-                                name="LastName" required>
-                              <div class="valid-feedback">
-                                Looks good!
-                              </div>
-                            </div>
-                          </div>
-                          <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                              <div class="input-group">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroupPrepend"><i
-                                      class="fa fa-envelope-o"></i></span>
-                                </div>
-                                <input type="text" class="form-control" id="validationCustomUsername"
-                                  placeholder="Email" aria-describedby="inputGroupPrepend" name="Email" required>
-                                <div class="invalid-feedback">
-                                  Please choose a email.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                              <div class="input-group">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroupPrepend"><i
-                                      class="fa fa-phone"></i></span>
-                                </div>
-                                <input type="text" class="form-control" id="validationCustomUsername"
-                                  placeholder="Phone" aria-describedby="inputGroupPrepend" name="Phone" required>
-                                <div class="invalid-feedback">
-                                  Please choose a phone.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 mb-12" style="padding: 11px;">
-                              <div class="form-group">
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message"
-                                  rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                              </div>
-                            </div>
-                            <div class="col-md-12" style="padding-left: 11px;">
-                              <input type="submit" class="btn btn-success btn-send" value="Send message">
-                            </div>
-                          </div>
-                      </div>
-                      </form>
-                      <script>
-                        // Example starter JavaScript for disabling form submissions if there are invalid fields
-                        (function () {
-                          'use strict';
-                          window.addEventListener('load', function () {
-                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                            var forms = document.getElementsByClassName('needs-validation');
-                            // Loop over them and prevent submission
-                            var validation = Array.prototype.filter.call(forms, function (form) {
-                              form.addEventListener('submit', function (event) {
-                                if (form.checkValidity() === false) {
-                                  event.preventDefault();
-                                  event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                              }, false);
-                            });
-                          }, false);
-                        })();
-                      </script>
-              </div>
-              
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
   </section>
- <!--  Button trigger modal -->
-
-  
-
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container alert alert-secondary">
+            <div class="col-lg-12 py-3">
+              <h2>Please contact me !</h2>
+              <form class="needs-validation pt-3" novalidate action="contact.php" id="contact-form"
+                method="post" role="form">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="FirstName" placeholder="First name"
+                      name="FirstName" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="LastName" placeholder="Last name"
+                      name="LastName" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend"><i
+                            class="fa fa-envelope-o"></i></span>
+                      </div>
+                      <input type="text" class="form-control" id="Email"
+                        placeholder="Email" aria-describedby="inputGroupPrepend" name="Email" required>
+                      <div class="invalid-feedback">
+                        Please choose a email.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend"><i
+                            class="fa fa-phone"></i></span>
+                      </div>
+                      <input type="text" class="form-control" id="Phone"
+                        placeholder="Phone" aria-describedby="inputGroupPrepend" name="Phone" required>
+                      <div class="invalid-feedback">
+                        Please choose a phone.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 mb-12" style="padding: 11px;">
+                    <div class="form-group">
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message"
+                        rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12" style="padding-left: 11px;">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                  </div>
+                </div>
+            </div>
+            </form>
+            <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function () {
+                'use strict';
+                window.addEventListener('load', function () {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+            </script>
+        </div>
+       </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- end Modal -->
   <!--จบการทำเมนู-->
   <section id="title">
     <div class="container-fluid">
@@ -222,7 +216,6 @@
       <div class="row">
         <div class="col-md-9 bg-fff">
           <div class="bg-fff">
-
           </div>
         </div>
         <div class="col-md-3 bg-353e47">
@@ -238,6 +231,7 @@
       <div class="row">
         <div class="col-md-9 bg-fff">
           <div class="bg-fff">
+
           </div>
         </div>
         <div class="col-md-3 bg-353e47">
@@ -334,17 +328,12 @@
                             </div>
                         </div>
                   </div>
-                    <div class=" foot-logo text-center pb-2">
+                  <div class=" foot-logo text-center pb-2">
                   <img src="img/logo-foot.png">
+              </ul>
             </div>
           </div>
         </div>
   </section>
-  <script>
-    $('#myModal').on('shown.bs.modal', function () {
-      $('#myInput').trigger('focus')
-    })
-  </script>
 </body>
-
 </html>

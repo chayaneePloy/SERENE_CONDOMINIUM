@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -8,11 +7,11 @@ body{
 } /* กำหนด ขอบทั่วไป 0= ไม่มีขอบ*/
 /* ----- NavigationBar เมนู-----   */
 #nav-bar{
-   background-color: #ffffff !important;
+    background-color: #ffffff !important;
     position: sticky!important;
-    top: 0; 
+    top: 0;
     z-index: 10!important;
-   padding: 0px 5px;   
+    padding: 20px 0px;   
 }
 .navbar-brand  b{
     font-size: 3rem;
@@ -38,8 +37,8 @@ body{
      }
     }
 .navbar-nav li{
-    padding: 0 5px;
-    
+    padding: 0 10px;
+   
 }
 /*nav-nav เรียกใช้จากboostarp กำหนดความกว้างระหว่างเมนู */
 .navbar-nav li a{
@@ -86,8 +85,8 @@ body{
 }
 @media (max-width: 575.98px){
     .navbar-nav li{
-        padding: 0 0px;
-      
+        padding: 0 10px;
+        padding-right: 0px!important;
     }
     .box{  
         width: 300px;
@@ -108,7 +107,7 @@ body{
 @media (min-width: 576px) and (max-width: 767.98px){
     .navbar-nav li{
         padding: 0 10px;
-       
+        padding-right: 0px!important;
     }
     .box{  
         width: 425px;
@@ -738,17 +737,18 @@ color:#4b4949;
     margin: 0px;
   }
 }
- 
-.contact{
-        
-        position: fixed!important;
-        text-align: right;
-        z-index: 10!important;
-        padding: 20px 0px;   
-    
-}
+.l-sidenav {
+    position: fixed; 
+    z-index: 1040; 
+    top: 0; 
+    left: 0;    
+    height: 100%; 
+    width: 0; 
+    overflow-x: hidden; 
+}   
+/*sidemenu ด้านขวา*/
 .r-sidenav {
-    position: absolute; 
+    position: fixed; 
     z-index: 1040; 
     top: 0; 
     right: 0;   
@@ -756,13 +756,19 @@ color:#4b4949;
     width: 0; 
     overflow-x: hidden; 
 }   
-.popup{
-    position: absolute; 
-    z-index: 1040; 
-}
-.w-30{
-    width: 30%;
+/*คลุมดำพื้นที่เนื้อหา*/
+.page-overlay-bg{
     position: absolute;
-    text-align: right;
-
+    z-index: 1040;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);  
+}  
+#contact{
+        background-color: #ffffff !important;
+        position: fixed!important;
+        top: 0;
+        z-index: 10!important;
+        padding: 20px 0px;   
+    
 }
